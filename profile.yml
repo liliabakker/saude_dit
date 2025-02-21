@@ -1,0 +1,12 @@
+localhost:
+  outputs:
+    dev:
+      dbname: DBT
+      host: localhost
+      pass: root
+      port: 5432
+      schema: staging
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev
