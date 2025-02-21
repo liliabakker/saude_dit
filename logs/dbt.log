@@ -1,0 +1,31 @@
+[0m21:29:42.241737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4D2719990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4D2719BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4D2718150>]}
+
+
+============================== 21:29:43.021032 | 817291c5-677a-4306-9782-569aa2e0b532 ==============================
+[0m21:29:43.021032 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:29:43.090975 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\lilia\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m21:29:43.132375 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/lilia/.dbt')}
+[0m21:29:43.133394 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m21:42:22.942909 [debug] [MainThread]: Starter project path: C:\Users\lilia\OneDrive - Educacional\Documentos\Ciência de dados\saude_dit\.venv\Lib\site-packages\dbt\include\starter_project
+[0m21:42:23.138926 [info ] [MainThread]: 
+Your new dbt project "localhost" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:42:23.142931 [info ] [MainThread]: Setting up your profile.
+[0m21:45:17.701980 [info ] [MainThread]: Profile localhost written to C:\Users\lilia\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:45:17.712243 [debug] [MainThread]: Command `dbt init` succeeded at 21:45:17.710105 after 936.17 seconds
+[0m21:45:17.721949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4D25CF2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4CC3938D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F4CC390290>]}
+[0m21:45:17.727294 [debug] [MainThread]: Flushing usage events
+[0m21:45:18.471739 [debug] [MainThread]: An error was encountered while trying to flush usage events
